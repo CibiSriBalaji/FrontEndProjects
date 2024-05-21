@@ -1,0 +1,111 @@
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 33px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .primary-button {
+    height: 44px;
+  }
+  /* Hero-section */
+  /* .Hero-section {
+    background-image: url("../assets/bg1.png");
+    background-size: 100vw 60rem;
+    background-repeat: no-repeat;
+    height: 60rem;
+    
+  } */
+
+  .Hero-section {
+    position: absolute;
+    width: 900px;
+    height: 649.92px;
+    left: -310.45px;
+    top: 57.95px;
+  }
+
+  .Hero-section h3 {
+    width: 247px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .Hero-main {
+    margin-top: -0.5rem;
+    padding-left: 3rem;
+  }
+
+  .top-nav,
+  .top-aside {
+    display: none;
+  }
+
+  /*about-section*/
+  .about-section {
+    position: absolute;
+    width: 900.49px;
+    height: 649.96px;
+    left: -177.83px;
+    top: 707.88px;
+  }
+  .about-head {
+    padding-top: 1rem;
+    margin-left: 12rem;
+  }
+  .about-section h1 {
+    width: 271px;
+  }
+  .about-img img {
+    width: 225px;
+    position: relative;
+    left: 63.15%;
+    right: -52.49%;
+    top: -27%;
+    bottom: 0%;
+  }
+  .about-content {
+    width: 16.75rem;
+    padding-top: 2rem;
+    padding-left: 13rem;
+  }
+
+  /* Features-section */
+  .features-section {
+    position: absolute;
+    width: 478.05px;
+    height: 590.4px;
+    left: -91.97px;
+    top: 1356.97px;
+  }
+
+  /* system-requirements-section */
+  .syst-req {
+    position: absolute;
+    width: 889.54px;
+    height: 649.32px;
+    left: -330.27px;
+    top: 1947.37px;
+  }
+  /* Press-Quote content */
+  .press-quote {
+    position: absolute;
+    width: 900px;
+    height: 870.48px;
+    left: -277.9px;
+    top: 2596.69px;
+  }
+  /*Subscribe-section*/
+  .subscribe-section {
+    position: absolute;
+    width: 1448.25px;
+    height: 966.69px;
+    left: -908.42px;
+    top: 3483.31px;
+  }
+}

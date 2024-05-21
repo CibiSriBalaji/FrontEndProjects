@@ -1,0 +1,80 @@
+@media (max-width:600px){
+    h3{
+        font-size: 20px;
+    }
+    .Nav-bar p, .Nav-bar a{
+        display: none;
+    }
+    .Nav-bar{
+        padding: 00.2rem 2rem;
+        border-bottom: 1px solid gray ;
+    }
+
+    .Hero-section img{
+        display: none;
+    }
+    
+    .container{
+        margin: 1rem 2rem;
+    }
+
+    .Hero-section h1{
+        font-size: 34px;
+        line-height: 60px;
+    }
+
+    .Hero-section h1,p{
+        font-weight: 500;
+    }
+
+    .Hero-section br{
+        display: none;
+    }
+
+    .Hero-section br:last-child{
+        display: block;
+    }
+
+    .Hero-section{
+        align-items: center;
+    }
+    
+    .primary-button, .secondary-button{
+        display: block;
+        margin: auto;
+    }
+
+    .Hero-img{
+        width: 295px;
+        height: 365px;
+    }
+
+    .profile-aside{
+        flex-direction: column;
+    }
+
+    .profile-aside h2{
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .profile-content{
+        margin: 0.2rem .2rem;
+    }
+    .profile-section{
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .abilities-section div *{
+        margin: 1rem 0rem;
+    }
+    .abilities-contain{
+        display: block;
+    }
+
+    .abilities{
+        width: 100%;
+    }
+
+}

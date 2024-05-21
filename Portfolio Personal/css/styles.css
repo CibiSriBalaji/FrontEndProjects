@@ -1,0 +1,296 @@
+:root {
+  /*Colors*/
+  --primary-color: #F9B53A;
+  /*Fonts*/
+  --font-1: 3.75rem;
+  --font-2: 3rem;
+  --font-3: 2.125rem;
+  --font-4: 1.5rem;
+  --font-head-a: 1rem;
+  --font-p: 1.25rem;
+  --font-p2: 1rem;
+}
+
+/*Global CSS*/
+* {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  background: #131414;
+  color: #fff;
+}
+
+.primary-button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  font-size: var(--font-head-a);
+  border-radius: 8px;
+}
+
+.secondary-button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: none;
+  padding: 0.5rem 1rem;
+  font-size: var(--font-head-a);
+  border-radius: 8px;
+  border: 1px solid #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: var(--font-1);
+  font-weight: 700;
+  line-height: 4.438rem;
+}
+
+h2 {
+  font-size: var(--font-2);
+}
+
+h3 {
+  font-size: var(--font-3);
+}
+
+h4 {
+  font-size: var(--font-4);
+}
+
+p {
+  font-size: var(--font-p);
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.p-tb {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.container {
+  margin: 4.5rem 4.5rem;
+}
+
+.container-s {
+  margin: 2.5rem 2.5rem;
+}
+
+.container-sp {
+  padding: .75rem .75rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.dir-row {
+  flex-direction: row;
+}
+
+.dir-col {
+  flex-direction: column;
+}
+
+.yellow-txt {
+  color: var(--primary-color);
+}
+
+.pg-s {
+
+  font-size: var(--font-p2);
+  font-weight: 400;
+  line-height: 175%;
+}
+
+/*Section*/
+/*Nav-bar section*/
+
+.Nav-bar {
+  padding: 0.2rem 6rem;
+}
+
+.Nav-bar p {
+  font-size: var(--font-p2);
+}
+
+.top-nav p {
+  padding: 0rem 1rem;
+}
+
+/*Hero-section*/
+.Hero-section {
+  padding-bottom: 6rem;
+}
+
+.Hero-section img {
+  width: 100%;
+}
+
+.Hero-section p {
+  text-align: center;
+}
+
+.Hero-section-buttons a {
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
+
+.secondary-button img {
+  width: 0.75rem;
+  padding-right: 0.5rem;
+}
+
+/*Hero-section*/
+.profile-section {
+  border: 1.5px solid #3D3D3D;
+  width: 960px;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 4px 10px 200px 60px rgba(170, 51, 51, 0.2);;
+}
+
+.Hero-img {
+  width: 320px;
+  height: 400px;
+}
+
+.profile-section .secondary-button img {
+  width: 0.75rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.profile-content {
+  margin: -1.25rem 2.5rem;
+}
+
+/*abilities-section*/
+
+.abilities-section {
+  margin: 200px 50px;
+}
+
+.abilities-section h3:first-child {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.abilities-section div * {
+  background: #1F1F21;
+  border-radius: 8px;
+  margin: 0.75rem 1rem;
+}
+
+.abilities-section img {
+  width: 50px;
+}
+
+.abilities {
+  width: 27%;
+}
+
+.primary-button img {
+  width: 0.75rem;
+  padding-left: 0.5rem;
+  background-color: var(--primary-color);
+}
+
+.abilities-section .primary-button {
+  margin: 4rem 0rem -2rem 0rem;
+}
+
+/*Projects-section*/
+.Projects-section img {
+  width: 100%;
+}
+
+.primary-button img {
+  width: 0.75rem;
+  padding-left: 0.5rem;
+  background-color: var(--primary-color);
+}
+
+/*Footer-section*/
+.Footer-section {
+  margin: 7.5rem 16rem 2rem 4.5rem;
+  padding-right: 15rem;
+}
+
+.foot-content p:first-child {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.foot-content p {
+  font-size: 0.875rem;
+}
+
+.foot-content img {
+  width: auto;
+  height: 29px;
+}
+
+.copyright {
+  margin-top: 3rem;
+  border-top: 1px solid #26292D;
+}
+
+.copyright p {
+  font-size: 12px;
+}
